@@ -1,0 +1,40 @@
+.formStyle {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid grey;
+  padding: 20px;
+  width: 300px;
+}
+
+.labelStyle {
+  font-style: 20px;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 0;
+}
+
+.inputStyle {
+  box-shadow: inset 0px 0px 1px 1px grey;
+  border: 3px solid transparent;
+  margin-left: -3px;
+  height: 20px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.inputStyle:hover,
+.inputStyle:focus {
+  box-shadow: none;
+  border: 3px solid rgb(113, 230, 238);
+  border-radius: 5px;
+}
+
+.inputStyle:focus-visible {
+  outline: none;
+}
+
+
+
+.addButton {
+  width: 100px;
+}
