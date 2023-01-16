@@ -2,11 +2,12 @@ import { PropTypes } from 'prop-types';
 import css from './Contact.module.css';
 
 export const Contact = ({ contact: { id, name, number }, onDelete }) => {
-    
   const handleClick = () => onDelete(id);
 
   return (
     <li className={css.listItem}>
+      {console.log('Contact.render')}
+
       <p>
         {name}: {number}
       </p>
@@ -23,5 +24,5 @@ Contact.propTypes = {
     name: PropTypes.string.isRequired,
     number: PropTypes.string.isRequired,
   }),
-    onDelete:PropTypes.func.isRequired
+  onDelete: PropTypes.func.isRequired,
 };
