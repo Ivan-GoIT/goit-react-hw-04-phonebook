@@ -6,8 +6,6 @@ export const Contact = ({ contact: { id, name, number }, onDelete }) => {
 
   return (
     <li className={css.listItem}>
-      {console.log('Contact.render')}
-
       <p>
         {name}: {number}
       </p>

@@ -5,8 +5,6 @@ import { PropTypes } from 'prop-types';
 export const FilterByName = ({ filter, onChange }) => {
   return (
     <label>
-          {console.log('FilterByName.render')}
-
       <p className={css.labelStyle}>Find contacts by name</p>
       <input
         className={css.inputStyle}

@@ -3,8 +3,6 @@ import PropTypes from 'prop-types';
 
 export const Section = ({ title, children }) => (
   <section>
-    {console.log('Section.render')}
-    
     <h2 className={css.title}>{title}</h2>
     {children}
   </section>

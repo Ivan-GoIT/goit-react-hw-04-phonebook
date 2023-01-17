@@ -28,7 +28,6 @@ export const PhoneBookForm = ({ onSubmitForm }) => {
 
   return (
     <form className={css.formStyle} onSubmit={handleFormSubmit}>
-      {console.log('PhoneBookForm.render')}
       <label>
         <p className={css.labelStyle}>Name</p>
         <input
